@@ -13,3 +13,5 @@ headerTitle.innerText = 'world';
 
 //sunday Git learning
 //lets go again
+//i finally made it!! 
+//now lets pratices everyday and let it stick!
