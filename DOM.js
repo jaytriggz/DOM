@@ -17,6 +17,13 @@
 //GetElementById //
 //console.log(document.getElementById('header-title'));
 var headerTitle = document.getElementById('header-title');
+console.log(headerTitle);
+//headerTitle.textContent = 'hello Triggzz';
+//headerTitle.innerText = 'Goodbye';
+//console.log(headerTitle.innertext);
+
+headerTitle.innerHTML = '<h3> AGAIN HELLO </h3>';
+
 //console.log(headerTitle);
 //sunday Git learning
 //lets go again
