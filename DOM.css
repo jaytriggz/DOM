@@ -1,0 +1,25 @@
+#fcf-form {
+    display:block;
+}
+
+#contain {
+    margin: 0;
+    font-family: -apple-system, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+    color: black;
+    background-color: #fff;
+    margin: 40px;
+    padding: 10px 10px 0;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    padding-bottom: 20px;
+    
+}
+
+.fcf-form-group {
+    margin-bottom: 1rem;
+}
+
