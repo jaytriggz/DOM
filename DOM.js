@@ -16,6 +16,7 @@
 
 //GetElementById //
 //console.log(document.getElementById('header-title'));
+<<<<<<< HEAD
 var headerTitle = document.getElementById('header-title');
 console.log(headerTitle);
 //headerTitle.textContent = 'hello Triggzz';
@@ -24,8 +25,31 @@ console.log(headerTitle);
 
 headerTitle.innerHTML = '<h3> AGAIN HELLO </h3>';
 
+=======
+//var headerTitle = document.getElementById('header-title');
+>>>>>>> 1c019f847ad0d5df82b2693327a939991507e67e
 //console.log(headerTitle);
 //sunday Git learning
 //lets go again
 //i finally made it!! 
 //now lets pratices everyday and let it stick!
+
+const form = document.getElementById('form');
+
+form.addEventListener('sumbit', function (e) {
+    e.preventDefault();
+
+    const payload = new FormData(form);
+
+    console.log([...payload]);
+
+    fetch ('http://httpbin.org/post' , {
+    method: 'POST',
+    body: payload,
+})
+
+
+.then(res => res.json())
+.then(data => console.log(data))
+.catch(err => console.log(err));
+})
