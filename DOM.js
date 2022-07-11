@@ -16,40 +16,47 @@
 
 //GetElementById //
 //console.log(document.getElementById('header-title'));
-<<<<<<< HEAD
 var headerTitle = document.getElementById('header-title');
 console.log(headerTitle);
 //headerTitle.textContent = 'hello Triggzz';
 //headerTitle.innerText = 'Goodbye';
 //console.log(headerTitle.innertext);
 
-headerTitle.innerHTML = '<h3> AGAIN HELLO </h3>';
+//headerTitle.innerHTML = '<h3> AGAIN HELLO </h3>';
 
-=======
 //var headerTitle = document.getElementById('header-title');
->>>>>>> 1c019f847ad0d5df82b2693327a939991507e67e
 //console.log(headerTitle);
 //sunday Git learning
 //lets go again
 //i finally made it!! 
 //now lets pratices everyday and let it stick!
 
-const form = document.getElementById('form');
+// const form = document.getElementById('form');
 
-form.addEventListener('sumbit', function (e) {
-    e.preventDefault();
+// form.addEventListener('sumbit', function (e) {
+//     e.preventDefault();
 
-    const payload = new FormData(form);
+//     const payload = new FormData(form);
 
-    console.log([...payload]);
+//     console.log([...payload]);
 
-    fetch ('http://httpbin.org/post' , {
-    method: 'POST',
-    body: payload,
-})
+//     fetch ('http://httpbin.org/post' , {
+//     method: 'POST',
+//     body: payload,
+// })
 
 
-.then(res => res.json())
-.then(data => console.log(data))
-.catch(err => console.log(err));
-})
+// .then(res => res.json())
+// .then(data => console.log(data))
+// .catch(err => console.log(err));
+// })
+
+//Get Element By Class Name
+
+const items = document.getElementsByClassName ('list-group-item');
+console.log(items);
+console.log(items[1]);
+items[1].textContent = 'Hello 2'
+items[1].getElementsByClassName.fontWeight = 'bold';
+items[2].style.backgroundColor = 'gold';
+ 
