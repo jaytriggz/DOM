@@ -51,12 +51,28 @@ console.log(headerTitle);
 // .catch(err => console.log(err));
 // })
 
-//Get Element By Class Name
+// //Get Element By Class Name
 
-const items = document.getElementsByClassName ('list-group-item');
-console.log(items);
-console.log(items[1]);
-items[1].textContent = 'Hello 2'
-items[1].getElementsByClassName.fontWeight = 'bold';
-items[2].style.backgroundColor = 'gold';
+// const items = document.getElementsByClassName ('list-group-item');
+// console.log(items);
+// console.log(items[1]);
+// items[1].textContent = 'Hello 2'
+// items[1].getElementsByClassName.fontWeight = 'bold';
+// items[2].style.backgroundColor = 'gold';
+
+//QuerySelector //
+ var header = document.querySelector('#main-header');
+ header.getElementsByClassName.borderBottom = 'solid 4px #ccc';
+
+ var input = document.querySelector('input');
+ input.value = 'Hello World';
+
+ var submit = document.querySelector('input[type="submit"]');
+ submit.value = "SEND"
+
+ var item = document.querySelector('.list-group-item');
+ item.style.color = 'red';
+
+ 
+
  
