@@ -60,19 +60,29 @@ console.log(headerTitle);
 // items[1].getElementsByClassName.fontWeight = 'bold';
 // items[2].style.backgroundColor = 'gold';
 
-//QuerySelector //
- var header = document.querySelector('#main-header');
- header.getElementsByClassName.borderBottom = 'solid 4px #ccc';
+// //QuerySelector //
+//  var header = document.querySelector('#main-header');
+//  header.getElementsByClassName.borderBottom = 'solid 4px #ccc';
 
- var input = document.querySelector('input');
- input.value = 'Hello World';
+//  var input = document.querySelector('input');
+//  input.value = 'Hello World';
 
- var submit = document.querySelector('input[type="submit"]');
- submit.value = "SEND"
+//  var submit = document.querySelector('input[type="submit"]');
+//  submit.value = "SEND"
 
- var item = document.querySelector('.list-group-item');
- item.style.color = 'red';
+//  var item = document.querySelector('.list-group-item');
+//  item.style.color = 'red';
 
+
+//ParentNodes 
+var itemList = document.querySelector('#items');
+console.log(itemList.parentNode);
+
+  
+
+// console.log(itemList.children);
+// console.log(itemList.children[1]);
+// itemList.children[1].style. backgroundColor = 'yellow';
  
 
  
