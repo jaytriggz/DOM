@@ -85,4 +85,6 @@ console.log(itemList.parentNode);
 // itemList.children[1].style. backgroundColor = 'yellow';
  
 
+const reactElement = <div>Hellooooo</div>
+const domElement - 
  
