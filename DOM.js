@@ -86,5 +86,7 @@ console.log(itemList.parentNode);
  
 
 const reactElement = <div>Hellooooo</div>
-const domElement - 
+const domElement = document.getElementById('root')
+
+
  
